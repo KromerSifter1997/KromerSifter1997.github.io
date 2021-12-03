@@ -1,0 +1,64 @@
+<!-- Justin weiner 12-2-21 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/7f4efeb94c.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Nav bar, super basic, functional -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid" style=" background-color:#00004d; color:white;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav" style="padding-top:15px; padding-bottom:15px; column-gap: 200px; justify-content:center;">
+          <a class="nav-link" href="index.html" style="color: white; border-radius: 30px;">Personal Bio</a>
+          <a class="nav-link" href="Flexshow.html" style="color: white; border-radius: 30px;">Flex Tests</a>
+          <a class="nav-link active disabled" aria-current="page" style="color: white; border-radius: 30px;">Embed Tests</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div>
+
+    <!-- video file embed, youtube is super finicky with autoplay so i just used a file instead so i could do autoplay -->
+    <video autoplay muted style="margin-left:30%; margin-top:15px; width:40%">
+      <source src="videoembeder.mp4" type="video/mp4" />
+    </video>
+    <br>
+    <br>
+    <h5 class="below990" style="text-align:right; "> &emsp; &emsp; &emsp; &emsp; &emsp; Its a stick roll not a rick roll</h5>
+    <br>
+    <br>
+    <h5 class="above990" style="text-align:center;">Video Embed auto play test via file</h5>
+  </div>
+  <!-- median needs a break buffer so its forced to the bottom, something about this page breaks its usual properties-->
+  <br><br><br><br><br><br><br>
+  <!-- map z-->
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d303.71642166163883!2d-88.28200781665215!3d43.597091320412325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88046575e8e12acf%3A0xf0a669c339efb473!2sCampbellsport%20First%20Pastafarian%20Church%20Of%20The%20Flying%20Spaghetti%20Monster!5e0!3m2!1sen!2sus!4v1638491955792!5m2!1sen!2sus"
+    width="600" height="450" style="border:0; margin-left:25%; width:50%;  margin-top:15px;" allowfullscreen="" loading="lazy"></iframe>
+  <br><br>
+  <h5 style="text-align:center;">Google Maps embed</h5>
+  <br><br><br>
+  <iframe src="https://funhtml5games.com?embed=tetris" class="above990" style="width:800px; align-self:center; height:490px; border:0;  margin-left:25%; margin-top:15px;"></iframe>
+  <br><br>
+  <h5 style="text-align:center;" class="above990">tetris embed (non-mobile compatible)</h5>
+  <br><br><br>
+  <div class="median" style="margin-bottom:-500px;">
+    <p style=" padding-top:50px;"> 884 Mokapu Road, Kailua HI 96734 &#9679; kailuakovebnb@gmail.com &#9679; 808-261-1431</p>
+  </div>
+</body>
+
+</html>
